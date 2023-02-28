@@ -1,0 +1,23 @@
+/*
+Selectors
+*/
+
+h1{
+    text-transform: uppercase;
+    color:darkblue;
+
+}
+.container{
+    background-color: #dedede;
+    padding: 20px;
+}
+/*combined selectors
+space=dentro*/
+.container .btn{
+    background-color: aqua;
+}
+/*sin espacio = deben estar las dos*/
+.btn.error{
+    color: red;
+}
+
